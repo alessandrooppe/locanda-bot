@@ -10,9 +10,17 @@ for (let command in commands) {
     commands[command]();
 }
 
+void bot.start();
 logger.info("🤖 bot started")
 
-void bot.start();
+const commandsDefinition = [
+    { command: 'risorselavoro', description: 'Per avere tutti i link alle risorse lavoro!' },
+    { command: 'help', description: "Per vedere l'elenco dei comandi" },
+    { command: 'quinonsirisponde', description: 'Per non segnalare che sul thread Retroself-tive non si risponde' },
+];
+
+// Imposta i comandi del bot (facoltativo, per migliorare l'interfaccia utente di Telegram)
+bot.api.setMyCommands(commandsDefinition);
 
 export {
     bot
