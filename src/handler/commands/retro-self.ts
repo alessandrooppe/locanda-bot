@@ -1,4 +1,4 @@
-import { bot } from "@/*";
+import { bot } from "../../index";
 
 export default () => {
     bot.command("quinonsirisponde", (ctx) => {

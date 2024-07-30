@@ -1,4 +1,4 @@
-import {bot} from "@/*"
+import { bot } from "../../index";
 
 const cvGuide: string = '[galactic-CV-guide](https://github.com/GuidoPenta/galactic-CV-guide)';
 const linkedInGuide: string = '[galactic-linkedin-profile-guide](https://github.com/GuidoPenta/galactic-linkedin-profile-guide)';
