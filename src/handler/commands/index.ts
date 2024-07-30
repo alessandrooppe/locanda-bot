@@ -13,8 +13,6 @@ readFile.forEach(file => commands[file] = require(`./${file}`).default)
 logger.info("Commands loaded!")
 logger.debug(commands, "Commands loaded: ")
 
-
-
 export {
     commands
 }

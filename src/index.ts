@@ -1,6 +1,6 @@
 import {Bot} from "grammy";
 import {token, logger} from "./config";
-import {commands} from "./handler/commands";
+import {commands} from "@commands/index";
 
 const bot = new Bot(token);
 
@@ -25,4 +25,3 @@ bot.api.setMyCommands(commandsDefinition);
 export {
     bot
 }
-
